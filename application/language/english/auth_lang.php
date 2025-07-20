@@ -1,0 +1,20 @@
+<?php defined('BASEPATH') or exit('Akses skrip langsung tidak diizinkan');
+
+$lang['auth_ci_version_mismatch']   =   'Pustaka otentikasi diuji dan dibangun untuk versi CodeIgniter 3. Harap pastikan versi sistem saat ini agar pustaka ini dapat berfungsi!!!';
+$lang['auth_hashing_unavailable']   =   'Fungsi PHP password_hash tidak tersedia. Harap pastikan versi PHP Anda saat ini adalah 5.5 atau lebih baru.';
+$lang['auth_pass_verify_unavailable'] = 'Fungsi PHP password_verify tidak tersedia. Harap pastikan versi PHP Anda saat ini adalah 5.5 atau lebih baru.';
+$lang['auth_empty_credentials']     =   'Bidang input tidak boleh kosong.';
+$lang['auth_lengthy_password']      =   'Permintaan tidak valid.';
+$lang['auth_inactive_account_0']    =   'Anda belum mengaktifkan akun Anda! Harap periksa email Anda untuk petunjuk aktivasi.';
+$lang['auth_inactive_account_2']    =   'Akun Anda telah ditangguhkan!! Harap hubungi pihak berwenang.';
+$lang['auth_inactive_account_3']    =   'Akun Anda telah ditangguhkan!.';
+$lang['auth_login_exceeded']        =   'Anda telah mencapai jumlah maksimum percobaan login.';
+$lang['auth_password_mismatch']     =   'Kata sandi yang dimasukkan tidak valid. Silakan coba lagi.';
+$lang['auth_login_successful']      =   'Login berhasil. Sedang dialihkan...';
+$lang['auth_user_not_found']        =   'Tidak ada pengguna ditemukan dengan ID yang Anda berikan.';
+$lang['auth_invalid_cookie']        =   'Data yang disimpan dalam cookie tidak valid.';
+$lang['auth_session_delete_failed'] =   'Gagal menghapus data sesi login.';
+$lang['auth_log_delete_failed']     =   'Gagal menghapus log pengguna dari database.';
+$lang['auth_already_logged_out']    =   'Anda tidak sedang login.';
+$lang['auth_logout_successful']     =   'Berhasil keluar.';
+$lang['permission_denied']          =   'Anda tidak diizinkan untuk melakukan tindakan ini';
